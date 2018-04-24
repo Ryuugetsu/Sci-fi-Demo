@@ -31,6 +31,7 @@ public class Player : MonoBehaviour {
         _characterController = GetComponent<CharacterController>();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
         _currentAmmo = _maxAmmo;
 
         _uiManager = GameObject.Find("Canvas").GetComponent<UIManager>();
